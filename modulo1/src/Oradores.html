@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oradores</title><link rel="stylesheet" href="/src/css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/img/mental-health.png">
+</head>
+
+<body class="bg-gradient-to-r from-blue-300 to-green-300 min-h-screen bg-opacity-80">
+<!-- Menú de navegación -->
+    <header>
+    <nav class="bg-[#1e1b4b] p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="/src/img/head-azul.png" alt="Logo" class="w-12 h-12 mr-3">
+                <span class="text-white text-lg font-semibold">Bienestar</span>
+            </div>
+            <div class="hidden md:flex space-x-4">
+                <a href="/src/index.html" class="bg-blue-400 text-black px-4 py-2 rounded-md font-semibold shadow-lg hover:bg-blue-500 hover:text-white transition">Inicio</a>
+                <a href="/src/Oradores.html" class="bg-blue-400 text-black px-4 py-2 rounded-md font-semibold shadow-lg hover:bg-blue-500 hover:text-white transition">Oradores</a>
+                <a href="/src/Agenda.html" class="bg-blue-400 text-black px-4 py-2 rounded-md font-semibold shadow-lg hover:bg-blue-500 hover:text-white transition">Agenda</a>
+                <a href="/src/Formulario.html" class="bg-green-400 text-black px-4 py-2 rounded-full font-semibold shadow-lg hover:bg-green-500 hover:text-white transition">Registrar</a>
+            </div>
+            <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobileMenu" class="md:hidden menu-hidden mt-1">
+            <a href="/src/index.html" class="text-center block text-white px-4 py-2 hover:bg-indigo-700">Inicio</a>
+            <a href="/src/Oradores.html" class="text-center block text-white px-4 py-2 hover:bg-indigo-700">Oradores</a>
+            <a href="/src/Agenda.html" class="text-center block text-white px-4 py-2 hover:bg-indigo-700">Agenda</a>
+            <a href="/src/Formulario.html" class="bg-green-400 text-black text-center block px-4 py-2 hover:bg-green-500 hover:text-white transition">Registrar</a>
+        </div>
+    </nav>
+    </header>
+
+    <div class="container mx-auto p-4">
+        <h1 class=" text-black text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center mt-10 uppercase">Oradores</h1>
+    </div>
+
+    <!-- Descripción de  Oradores -->
+    <div>
+        <!-- Oradores de Psicología -->
+        <div class="container mx-auto px-4 py-8">
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-blue-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/maria-fernandez-psicologa.jpg" alt="Imagen de la Lic. María Fernández">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-blue-800 font-semibold">Lic. María Fernández</div>
+                            <p class="mt-2 text-lg text-gray-800">Psicóloga Clínica y Terapeuta Cognitivo-Conductual</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">La Lic. María Fernández es una psicóloga clínica con más de 10 años de experiencia en terapia cognitivo-conductual. Especializada en ansiedad, depresión y estrés, María combina empatía y técnicas basadas en evidencia para ayudar a individuos a mejorar su salud mental y bienestar emocional.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-blue-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/Alejandro.jpg" alt="Imagen del Lic. Alejandro Gonzalez">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-blue-800 font-semibold">Lic. Alejandro González</div>
+                            <p class="mt-2 text-lg text-gray-800">Especialista en Salud Mental y Bienestar Personalizado</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">El Lic. Alejandro González es un psicólogo clínico comprometido con tu salud mental y bienestar emocional. Con una sólida formación en terapia familiar y psicoterapia integradora, Alejandro ofrece un enfoque compasivo y efectivo para ayudarte a superar desafíos emocionales y mejorar tu calidad de vida. Su dedicación y experiencia te brindarán el apoyo necesario para lograr cambios significativos y duraderos en tu bienestar emocional y personal.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Oradores de Nutrición -->
+        <div class="container mx-auto px-4 py-8">
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-green-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/Nutricion-Dra1pg.jpg" alt="Imagen de la Dra. Ana Rodríguez">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-green-800 font-semibold">Dra. Ana Rodríguez</div>
+                            <p class="mt-2 text-lg text-gray-800">Nutricionista Clínica y Experta en Nutrición Deportiva</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">La Dra. Ana Rodríguez es una destacada nutricionista clínica con más de 12 años de experiencia en el campo de la nutrición y la salud. Graduada con honores de la Universidad Nacional, Ana se especializa en el manejo de condiciones médicas a través de la alimentación y en la optimización del rendimiento deportivo mediante planes nutricionales personalizados. Es autora de numerosos artículos científicos y conferencista en congresos internacionales sobre nutrición deportiva y bienestar.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-green-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/nutricion-Dra2.jpg" alt="Imagen de la Dra. Marta López">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-green-800 font-semibold">Lic. Marta López</div>
+                            <p class="mt-2 text-lg text-gray-800">Nutricionista Funcional y Especialista en Alimentación Vegetariana</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">La Lic. Marta López es una nutricionista funcional con una pasión por la alimentación saludable y sostenible. Graduada con distinción de la Universidad Nacional, Marta se especializa en dietas basadas en plantas y en la relación entre la alimentación y la salud intestinal. A través de su consulta privada y talleres educativos, ayuda a individuos a adoptar hábitos alimenticios que promuevan la salud y el bienestar integral.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-green-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/Nutricion-4.jpg" alt="Imagen del Dr. Carlos Sánchez">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-green-800 font-semibold">Dr. Carlos Sánchez</div>
+                            <p class="mt-2 text-lg text-gray-800">Nutricionista e Investigador en Nutrigenómica</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">El Dr. Carlos Sánchez es un reconocido nutricionista con un enfoque innovador en la nutrigenómica y la personalización de dietas según el perfil genético. Doctorado en Nutrición Molecular por la Universidad Nacional, Carlos ha publicado investigaciones pioneras en el campo de cómo los genes interactúan con los nutrientes. Además de su trabajo como consultor nutricional, colabora con instituciones académicas en el desarrollo de nuevas estrategias para mejorar la salud a través de la alimentación y el estilo de vida.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <!-- Oradores de Profes. Ed. Física -->
+        <div class="container mx-auto px-4 py-8">
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-yellow-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/Profe1.jpg" alt="Imagen del Profe. Andrés Torres">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-yellow-800 font-semibold">PROF. ANDRÉS TORRES</div>
+                            <p class="mt-2 text-lg text-gray-800">Especialista en Bienestar y Actividad Física Personalizada</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">El Prof. Andrés Martínez se dedica a mejorar tu bienestar general a través de programas personalizados de actividad física. Con una atención dedicada a tus necesidades individuales, te acompañará en el camino hacia una vida más saludable y activa, proporcionándote las herramientas y el apoyo necesarios para alcanzar tus metas de salud y fitness.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <div class="my-4 mx-auto bg-yellow-100 rounded-xl shadow-md overflow-hidden md:max-w-4xl">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="flex-shrink-0">
+                            <img class="h-48 w-full object-cover md:h-full md:w-48 rounded-lg" src="/src/img/profe2jpg.jpg" alt="Imagen de la Profe. Lucia Silva ">
+                        </div>
+                        <div class="p-8 flex-1">
+                            <div class="uppercase tracking-wide text-2xl text-yellow-800 font-semibold">Prof Lucía Silva</div>
+                            <p class="mt-2 text-lg text-gray-800">Educadora Física y Especialista en Yoga Terapéutico</p>
+                            <p class="mt-4 text-gray-700 leading-relaxed">La Profesora Lucía Silva es una educadora física certificada en yoga terapéutico con una profunda dedicación al bienestar holístico. Con formación en varias tradiciones de yoga y terapia física, Lucía utiliza el yoga como herramienta para mejorar la flexibilidad, reducir el estrés y promover la salud general. A través de clases individuales y retiros de bienestar, Lucía inspira a sus estudiantes a conectar cuerpo y mente para alcanzar un estado óptimo de salud y vitalidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+<!-- Pie de Página -->
+    <footer class="bg-[#1e1b4b] text-white py-10 mt-10">
+        <div class="container mx-auto text-center lg:flex lg:justify-between lg:items-end">
+            <!-- Mapa -->
+            <div class="lg:w-1/3 lg:order-last mb-6 lg:mb-0">
+                <div class="flex flex-col items-center">
+                    <h3 class="text-xl font-semibold mb-4">Ubicación del evento</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.326388963588!2d-65.78146642540578!3d-28.46971567575404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942428c0b56a0b09%3A0x9176b38a07b8e927!2sCine%20Teatro%20Catamarca!5e0!3m2!1ses-419!2sar!4v1716087431820!5m2!1ses-419!2sar" 
+                        width="350" height="200"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded-lg shadow-lg mx-auto lg:mx-0">
+                    </iframe>
+                </div>
+            </div>
+            <!-- Formulario de contacto -->
+            <div class="lg:w-1/3 mb-6 lg:mb-0">
+                <div class="lg:text-center">
+                    <h3 class="text-xl font-semibold mb-4">Contáctanos</h3>
+                    <form action="#" method="post" class="mx-auto lg:mx-0 max-w-md">
+                        <input type="text" name="name" placeholder="Nombre" class="block w-full rounded-md border-gray-300 mb-2 px-3 py-2">
+                        <input type="email" name="email" placeholder="Correo electrónico" class="block w-full rounded-md border-gray-300 mb-2 px-3 py-2">
+                        <textarea name="message" placeholder="Mensaje" rows="4" class="block w-full rounded-md border-gray-300 mb-2 px-3 py-2"></textarea>
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-3 py-2 rounded-md w-full">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Derechos de autor y redes sociales -->
+            <div class="lg:w-1/3 lg:text-left lg:ml-28">
+                <p>&copy; 2024 Cumbre de Bienestar. Todos los derechos reservados.</p>
+                <div class="text-sm text-gray-400 flex flex-col items-center lg:items-start lg:justify-end">
+                    <p class="mb-2">Seguinos en nuestras redes sociales:</p>
+                    <div class="flex justify-center lg:justify-end space-x-4">
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/src/js/scritps.js"></script>
+
+</body>
+</html>
