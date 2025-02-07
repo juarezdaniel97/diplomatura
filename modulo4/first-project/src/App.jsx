@@ -9,6 +9,8 @@ function App() {
   return (
     <>
       <div>
+        <h1>Hello Wordl!</h1>
+        <p>My first project in React.</p>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
